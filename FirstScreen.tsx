@@ -2,7 +2,6 @@ import {useEffect} from 'react';
 import {View} from 'react-native';
 import Animated, {
   Easing,
-  useAnimatedStyle,
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
@@ -25,18 +24,12 @@ export const FirstScreen = () => {
     });
   }, []);
 
-  const animatedStyle = useAnimatedStyle(() => {
-    return {
-      width: width.value,
-    };
-  });
-
   return (
     <View style={{flex: 1, backgroundColor: 'green'}}>
       <Animated.View
         style={[
           {height: '100%', backgroundColor: 'pink'},
-          animatedStyle,
+          {width},
         ]}></Animated.View>
     </View>
   );
