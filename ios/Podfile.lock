@@ -1575,7 +1575,7 @@ PODS:
     - React-logger (= 0.76.2)
     - React-perflogger (= 0.76.2)
     - React-utils (= 0.76.2)
-  - RNGestureHandler (2.21.1):
+  - RNGestureHandler (2.21.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1596,7 +1596,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNReanimated (3.16.1):
+  - RNReanimated (3.16.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1616,10 +1616,10 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated (= 3.16.1)
-    - RNReanimated/worklets (= 3.16.1)
+    - RNReanimated/reanimated (= 3.16.2)
+    - RNReanimated/worklets (= 3.16.2)
     - Yoga
-  - RNReanimated/reanimated (3.16.1):
+  - RNReanimated/reanimated (3.16.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1639,30 +1639,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNReanimated/reanimated/apple (= 3.16.1)
+    - RNReanimated/reanimated/apple (= 3.16.2)
     - Yoga
-  - RNReanimated/reanimated/apple (3.16.1):
-    - DoubleConversion
-    - glog
-    - hermes-engine
-    - RCT-Folly (= 2024.01.01.00)
-    - RCTRequired
-    - RCTTypeSafety
-    - React-Core
-    - React-debug
-    - React-Fabric
-    - React-featureflags
-    - React-graphics
-    - React-ImageManager
-    - React-NativeModulesApple
-    - React-RCTFabric
-    - React-rendererdebug
-    - React-utils
-    - ReactCodegen
-    - ReactCommon/turbomodule/bridging
-    - ReactCommon/turbomodule/core
-    - Yoga
-  - RNReanimated/worklets (3.16.1):
+  - RNReanimated/reanimated/apple (3.16.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1683,7 +1662,28 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (4.1.0):
+  - RNReanimated/worklets (3.16.2):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - RNScreens (4.3.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1704,9 +1704,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNScreens/common (= 4.1.0)
+    - RNScreens/common (= 4.3.0)
     - Yoga
-  - RNScreens/common (4.1.0):
+  - RNScreens/common (4.3.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2007,9 +2007,9 @@ SPEC CHECKSUMS:
   React-utils: ed6cb7ba089ac0856aa104df12691e99abbf14e1
   ReactCodegen: 93b271af49774429f34d7fd561197020d86436e2
   ReactCommon: 208cb02e3c0bb8a727b3e1a1782202bcfa5d9631
-  RNGestureHandler: a3822e519fd1e9885b92d8c9bd82a7a0be305fe3
-  RNReanimated: 77242c6d67416988a2fd9f5cf574bb3e60016362
-  RNScreens: 27587018b2e6082f5172b1ecf158c14a0e8842d6
+  RNGestureHandler: 0e5ae8d72ef4afb855e98dcdbe60f27d938abe13
+  RNReanimated: df96d71c9d7deeecb980a54d1f15bb17f43952a7
+  RNScreens: 44a3e358d5ccd7815c5ae9148988c562826992b2
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 96872ee462cfc43866ad013c8160d4ff6b85709b
 
